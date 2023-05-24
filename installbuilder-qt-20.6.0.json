@@ -1,0 +1,24 @@
+{
+    "homepage": "https://installbuilder.com/download-installbuilder-for-qt-step-2",
+    "license": "Proprietary",
+    "version": "20.6.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cardinotGV/scoop/releases/download/installbuilder-qt-20.6.0/installbuilder-qt-20.6.0-windows.zip",
+            "hash": "178b103b6b9d16331ed5e335fa0ac07597119e99ce8740adbc06c370378ec42f",
+            "extract_dir": "VMware InstallBuilder for Qt 20.6.0"
+        }
+    },
+    "bin": "builder-cli.exe",
+    "checkver": {
+        "url": "https://github.com/cardinotGV/scoop/releases",
+        "re": "InstallBuilder Qt ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cardinotGV/scoop/releases/download/installbuilder-qt-$version/installbuilder-qt-$version-windows.zip"
+            }
+        }
+    }
+}
