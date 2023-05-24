@@ -1,0 +1,11 @@
+{
+    "homepage": "https://dotnet.microsoft.com/en-us/download/dotnet-framework",
+    "license": "DotNetFramework",
+    "version": "4.7.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cardinotGV/scoop/releases/download/dotnetframework-dist-4.7.2/ndp472-kb4054530-x86-x64-allos-enu.exe",
+            "hash": "5cb624b97f9fd6d3895644c52231c9471cd88aacb57d6e198d3024a1839139f6"
+        }
+    }
+}
