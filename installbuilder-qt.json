@@ -9,7 +9,7 @@
             "extract_dir": "VMware InstallBuilder for Qt 20.6.0"
         }
     },
-    "bin": "bin\builder-cli2.exe",
+    "bin": "bin/builder-cli.exe",
     "checkver": {
         "url": "https://github.com/cardinotGV/scoop/releases",
         "re": "InstallBuilder Qt ([\\d\\.]+)"
