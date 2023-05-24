@@ -1,0 +1,19 @@
+{
+    "homepage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist",
+    "license": "Visual C++ Redistributable for Visual Studio",
+    "version": "2022",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cardinotGV/scoop/releases/download/vcredist-dist-2022/vcredist-dist-2022.zip",
+            "hash": "aabf3a4ed64c390de5512bf4505a670b82569701fa294d1dd9df4e8c9b7c5b91",
+            "extract_dir": "."
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cardinotGV/scoop/releases/download/vcredist-dist-$version/vcredist-dist-$version.zip"
+            }
+        }
+    }
+}
