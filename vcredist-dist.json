@@ -6,7 +6,7 @@
         "64bit": {
             "url": "https://github.com/cardinotGV/scoop/releases/download/vcredist-dist-2022/vcredist-dist-2022.zip",
             "hash": "aabf3a4ed64c390de5512bf4505a670b82569701fa294d1dd9df4e8c9b7c5b91",
-            "extract_dir": "."
+            "extract_dir": "vc_redist"
         }
     },
     "autoupdate": {
