@@ -9,8 +9,8 @@
         "https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe"
       ],
       "hash": [
-        "de0c40cf4bdf82c89b98d31c9dbb56977bbf7b7cdda005b0c9268967fc1b7b2e",
-        "7c53cb6dcc688a92b2e29bbbc6d1799ae268855e18c65ae399b05dd7d69f630f"
+        "0179cc6d863139b68d1d1a69bdb58db766b040c6b6f2976dd1c5adf83dd0b6de",
+        "16eaa194fcb94d6aa856a14080892233058c6725744324fcbf436aea6585e931"
       ],
       "extract_dir": "pgsql"
     }
