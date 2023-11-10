@@ -1,23 +1,32 @@
 {
-    "homepage": "https://www.postgresql.org",
-    "license": "PostgreSQL",
-    "version": "11.17.1",
-    "architecture": {
-        "64bit": {
-            "url": ["https://get.enterprisedb.com/postgresql/postgresql-11.17-1-windows-x64-binaries.zip", "https://get.enterprisedb.com/postgresql/postgresql-11.17-1-windows-x64.exe"],
-            "hash": ["de0c40cf4bdf82c89b98d31c9dbb56977bbf7b7cdda005b0c9268967fc1b7b2e", "7c53cb6dcc688a92b2e29bbbc6d1799ae268855e18c65ae399b05dd7d69f630f"],
-            "extract_dir": "pgsql"
-        }
-    },
-    "checkver": {
-        "url": "https://www.postgresql.org/ftp/source/",
-        "regex": "v(11\\.[\\d.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": ["https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64-binaries.zip", "https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64.exe"]
-            }
-        }
+  "homepage": "https://www.postgresql.org",
+  "license": "PostgreSQL",
+  "version": "16.1.1",
+  "architecture": {
+    "64bit": {
+      "url": [
+        "https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64-binaries.zip",
+        "https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe"
+      ],
+      "hash": [
+        "de0c40cf4bdf82c89b98d31c9dbb56977bbf7b7cdda005b0c9268967fc1b7b2e",
+        "7c53cb6dcc688a92b2e29bbbc6d1799ae268855e18c65ae399b05dd7d69f630f"
+      ],
+      "extract_dir": "pgsql"
     }
+  },
+  "checkver": {
+    "url": "https://www.postgresql.org/ftp/source/",
+    "regex": "v(16\\.[\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": [
+          "https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64-binaries.zip",
+          "https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64.exe"
+        ]
+      }
+    }
+  }
 }
