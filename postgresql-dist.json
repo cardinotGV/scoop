@@ -5,8 +5,8 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259408#/postgresql-16.8-1-windows-x64-binaries.zip",
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259409#/postgresql-16.8-1-windows-x64.exe"
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259409#/postgresql-16.8-1-windows-x64-binaries.zip",
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259408#/postgresql-16.8-1-windows-x64.exe"
       ],
       "hash": [
         "46903bb56bb0a40a81768703fa7420f0690095685da040bed2c584b900a1124c",
