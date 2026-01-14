@@ -1,16 +1,16 @@
 {
   "homepage": "https://www.postgresql.org",
   "license": "PostgreSQL",
-  "version": "16.8.1",
+  "version": "16.11.2",
   "architecture": {
     "64bit": {
       "url": [
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259409#/postgresql-16.8-1-windows-x64-binaries.zip",
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259408#/postgresql-16.8-1-windows-x64.exe"
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259906#/postgresql-16.11-2-windows-x64-binaries.zip",
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259907#/postgresql-16.11-2-windows-x64.exe"
       ],
       "hash": [
-        "46903bb56bb0a40a81768703fa7420f0690095685da040bed2c584b900a1124c",
-        "821b114d87d00a4781be224f9edb30e3d2b54f7526a3e2de0598f77bec741530"
+        "579f70755723259d85d80301f1b793559edc31516cdeb3bcf34f1ec9d140cebb",
+        "ff8787beec18103ac7a29553f5ea5009fc13ef629af527886f47a0dcc5391032"
       ],
       "extract_dir": "pgsql"
     }
@@ -20,3 +20,5 @@
     "regex": "v(16\\.[\\d.]+)"
   }
 }
+
+
