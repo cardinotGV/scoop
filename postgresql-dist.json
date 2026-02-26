@@ -5,12 +5,12 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260005#/postgresql-16.12-1-windows-x64-binaries.zip",
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260004#/postgresql-16.12-1-windows-x64.exe"
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260046#/postgresql-16.13-1-windows-x64.exe",
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260047#/postgresql-16.13-1-windows-x64-binaries.zip"
       ],
       "hash": [
-        "bc71362c2b2f945b0e9f132be8b679bdfd9c22607f88146f2a59d2617736e8ef",
-        "7ee28beb8c35753a149c6741ef99717e8fe69a5f39e037745a085be2af749e61"
+        "8868a08cbbfe161f2a09343cf04ee8f8217638148b9a51f886503cfc8de338bf",
+        "9b4c7a1bc31147b5b2ba59178d0eef86c16181d54a20177192b387dff20f00a9"
       ],
       "extract_dir": "pgsql"
     }
