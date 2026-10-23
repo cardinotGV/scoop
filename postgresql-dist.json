@@ -1,16 +1,16 @@
 {
   "homepage": "https://www.postgresql.org",
   "license": "PostgreSQL",
-  "version": "16.14.1",
+  "version": "16.15.5",
   "architecture": {
     "64bit": {
       "url": [
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260203#/postgresql-16.14-1-windows-x64.exe",
-        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260202#/postgresql-16.14-1-windows-x64-binaries.zip"
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260621#/postgresql-16.15-5-windows-x64.exe",
+        "https://sbp.enterprisedb.com/getfile.jsp?fileid=1260623#/postgresql-16.15-5-windows-x64-binaries.zip"
       ],
       "hash": [
-        "d389834df279a9b7ce4b4a030b6545fd0befb05385ff66932ac37454ad9b9312",
-        "98af1417ba6a8dc30543e560e5407833a3b9e7cc7ed20e73b2006f3aa2f04663"
+        "4065dbc5ffb52010e7357dfd6a74934878f1c6faf7a75cad1411a22e11b7b929",
+        "43bb45f173a6f08cf1d29a97a6d8deb119e8e8093a24c00d2d1001a0ccaa8281"
       ],
       "extract_dir": "pgsql"
     }
